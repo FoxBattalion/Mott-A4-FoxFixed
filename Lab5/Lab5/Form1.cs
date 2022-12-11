@@ -21,7 +21,7 @@ namespace Lab5
         
         int count = 1;
         
-        const int maxcount = 3;
+        const int maxCount = 3;
 
         //This constant is to be called whenever my name is needed//
         private const string PROGRAMMER = "Brandon-Cochran-Mott";
