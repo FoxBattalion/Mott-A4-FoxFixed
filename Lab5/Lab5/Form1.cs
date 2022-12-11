@@ -52,7 +52,7 @@ namespace Lab5
             }
             else if (count == maxCount)
             {
-                MessageBox.Show(maxCount+" attempt to login\n Account Locked - Closing Program", ProGrammer, MessageBoxButtons.OK);
+                MessageBox.Show(maxCount+" attempt to login\n Account Locked - Closing Program", PROGRAMMER, MessageBoxButtons.OK);
                 this.Close();
             }
             else if(txtCode.Text != lblAuthCode.Text) 
