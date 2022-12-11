@@ -69,7 +69,7 @@ namespace Lab5
         {
             txtString1.Clear();
             txtString2.Clear();
-            lblResults.Text = "Well, Hello there";
+            lblResults.Text = "";
         }
         //This is a control that clears the Stats group box//
         private void ResetStatsGrp()
