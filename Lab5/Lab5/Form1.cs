@@ -21,7 +21,7 @@ namespace Lab5
         
         int count = 1;
         
-        const int maxcount = 3;
+        const int maxCount = 3;
 
         //This constant is to be called whenever my name is needed//
         private const string PROGRAMMER = "Brandon-Cochran-Mott";
@@ -52,7 +52,7 @@ namespace Lab5
             }
             else if (count == maxCount)
             {
-                MessageBox.Show(maxCount+" attempt to login\n Account Locked - Closing Program", ProGrammer, MessageBoxButtons.OK);
+                MessageBox.Show(maxCount+" attempt to login\n Account Locked - Closing Program", PROGRAMMER, MessageBoxButtons.OK);
                 this.Close();
             }
             else if(txtCode.Text != lblAuthCode.Text) 
@@ -69,7 +69,7 @@ namespace Lab5
         {
             txtString1.Clear();
             txtString2.Clear();
-            lblResults.Text = "Well, Hello there";
+            lblResults.Text = "";
         }
         //This is a control that clears the Stats group box//
         private void ResetStatsGrp()
